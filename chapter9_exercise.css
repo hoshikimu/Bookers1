@@ -4,6 +4,10 @@
 	box-sizing: border-box;
 }
 
+.step-headline, .headline, .text {
+	color: #555	;
+}
+
 .clearfix {
 	content: "";
 	display: block;
@@ -24,6 +28,10 @@
 	padding: 10px;
 }
 
+.step-content:last-child {
+	margin-right: 0;
+}
+
 .step-headline {
 	position: absolute;
 	top: 0;
@@ -31,10 +39,6 @@
 	background-color: #FF773E;
 	color: white;
 	padding: 3px;
-}
-
-.step-content:last-child {
-	margin-right: 0;
 }
 
 .step-image1 {
