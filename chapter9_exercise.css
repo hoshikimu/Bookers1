@@ -68,3 +68,31 @@
 .headline {
 	padding: 7px 0;
 }
+
+@media screen and (max-width:768px) {
+	.contents {
+		width: 90%;
+	}
+
+	.step-content {
+		width: 90%;
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.step-content:last-child {
+		margin: 0 auto;
+	}
+
+	.step-image1 {
+		width: 100%;
+	}
+
+	.step-image2 {
+		width: 100%;
+	}
+
+	.step-image3 {
+		width: 100%;
+	}
+}
